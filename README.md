@@ -7,4 +7,4 @@ Currently only supports http, and does not support asp.
    
 Returning the content-type in the header still can't return other more types.
 
-When using virtual machines (cpu: 2 core, ram: 2 g, system: ubuntu 16.4) and apachebench for testing, far beyond apache. And nginx≈50ms, my≈60ms complete 50% (-c 10000,-n 20000).
+When using virtual machines (cpu: 2 core, ram: 2 g, system: ubuntu 16.4) and apachebench for testing, far beyond apache. And nginx≈50s, my≈60s complete 50% (-c 10000,-n 20000).
